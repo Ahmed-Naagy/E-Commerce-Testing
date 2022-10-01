@@ -1,0 +1,9 @@
+Kindly if you want to proceed manually with any test scenario from "features" rather than running the Test Runner,
+ADD the "login steps" below to the "Background" section in any feature:
+
+And navigates to login page.
+And user enters valid login email.
+And user enters valid login password.
+And user press on login button.
+
+Thanks & appreciate your review time.

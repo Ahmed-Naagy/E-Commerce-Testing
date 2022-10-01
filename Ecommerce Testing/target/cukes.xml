@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testng-results failed="0" passed="15" skipped="0" total="15">
+<suite duration-ms="95652" name="io.cucumber.core.plugin.TestNGFormatter">
+<test duration-ms="95652" name="io.cucumber.core.plugin.TestNGFormatter">
+<class name="User could register with valid data">
+<test-method duration-ms="8548" finished-at="2022-04-26T02:04:41.605Z" name="user registers with valid data." started-at="2022-04-26T02:04:32.999Z" status="PASS"/>
+<test-method duration-ms="4787" finished-at="2022-04-26T02:04:46.441Z" name="user registers with invalid password." started-at="2022-04-26T02:04:41.649Z" status="PASS"/>
+</class>
+<class name="user should be able to login to the website.">
+<test-method duration-ms="6203" finished-at="2022-04-26T02:04:52.661Z" name="user login with valid data (valid email &amp; password)." started-at="2022-04-26T02:04:46.455Z" status="PASS"/>
+<test-method duration-ms="3279" finished-at="2022-04-26T02:04:55.962Z" name="user login with invalid data (invalid email &amp; password)." started-at="2022-04-26T02:04:52.683Z" status="PASS"/>
+</class>
+<class name="User could reset his/her password successfully">
+<test-method duration-ms="1441" finished-at="2022-04-26T02:04:57.427Z" name="user enters a valid registered email address." started-at="2022-04-26T02:04:55.986Z" status="PASS"/>
+<test-method duration-ms="1073" finished-at="2022-04-26T02:04:58.522Z" name="user enters invalid not registered email address." started-at="2022-04-26T02:04:57.446Z" status="PASS"/>
+</class>
+<class name="Logged User could search for any product">
+<test-method duration-ms="926" finished-at="2022-04-26T02:04:59.463Z" name="logged user should be able to search for any product." started-at="2022-04-26T02:04:58.536Z" status="PASS"/>
+</class>
+<class name="Logged User could switch between currencies US-Euro">
+<test-method duration-ms="6963" finished-at="2022-04-26T02:05:06.449Z" name="logged user should be able to change currency from US Dollars to Euro &amp; back." started-at="2022-04-26T02:04:59.474Z" status="PASS"/>
+</class>
+<class name="Logged user could select different Categories">
+<test-method duration-ms="2320" finished-at="2022-04-26T02:05:08.786Z" name="logged user could select category (Computers) then subcategory (Desktops)" started-at="2022-04-26T02:05:06.465Z" status="PASS"/>
+</class>
+<class name="Logged user could filter with color">
+<test-method duration-ms="1890" finished-at="2022-04-26T02:05:10.691Z" name="logged user could filter with red colour in Shoes Subcategory." started-at="2022-04-26T02:05:08.800Z" status="PASS"/>
+</class>
+<class name="Logged user could select different tags.">
+<test-method duration-ms="3119" finished-at="2022-04-26T02:05:13.825Z" name="logged user could select different tags." started-at="2022-04-26T02:05:10.704Z" status="PASS"/>
+</class>
+<class name="Logged user could add different products to Shopping cart.">
+<test-method duration-ms="15787" finished-at="2022-04-26T02:05:29.641Z" name="Logged user add 2 products to shopping cart" started-at="2022-04-26T02:05:13.849Z" status="PASS"/>
+</class>
+<class name="Logged user could add different products to Wishlist">
+<test-method duration-ms="13087" finished-at="2022-04-26T02:05:42.753Z" name="user adds two desktop products to his/her wishlist." started-at="2022-04-26T02:05:29.658Z" status="PASS"/>
+</class>
+<class name="Logged user could add different products to compare list">
+<test-method duration-ms="5758" finished-at="2022-04-26T02:05:48.531Z" name="Logged user could add 2nd and 3rd computer desktops to his/her compare list." started-at="2022-04-26T02:05:42.768Z" status="PASS"/>
+</class>
+<class name="Create successful Order">
+<test-method duration-ms="16559" finished-at="2022-04-26T02:06:05.118Z" name="Logged user could make a successful order." started-at="2022-04-26T02:05:48.551Z" status="PASS"/>
+</class>
+</test>
+</suite>
+</testng-results>
